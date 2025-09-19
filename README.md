@@ -13,12 +13,47 @@ A modern, responsive social network built with PHP, MySQL, and vanilla JavaScrip
 
 ## Installation
 
-### Prerequisites
+### 🐳 Docker Installation (Recommended)
+
+**Prerequisites:**
+- Docker
+- Docker Compose
+
+**Quick Start:**
+```bash
+# Clone the repository
+git clone https://github.com/GARVIT-PALIWAL/Social_Network.git
+cd Social_Network
+
+# Run setup script
+# On Windows:
+docker-setup.bat
+
+# On Linux/Mac:
+chmod +x docker-setup.sh
+./docker-setup.sh
+
+# Start the application
+docker-compose up -d
+```
+
+**Access the application:**
+- **Social Network**: http://localhost:8080
+- **phpMyAdmin**: http://localhost:8081
+
+**Stop the application:**
+```bash
+docker-compose down
+```
+
+### 🖥️ Manual Installation
+
+**Prerequisites:**
 - PHP 7.4 or higher
 - MySQL 5.7 or higher
 - Web server (Apache/Nginx)
 
-### Setup Instructions
+**Setup Instructions:**
 
 1. **Clone/Download** the project to your web server directory
 

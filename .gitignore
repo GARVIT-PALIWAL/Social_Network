@@ -1,6 +1,13 @@
 # Database credentials and sensitive files
 classes/Database.php
 
+# Docker files (keep templates)
+!classes/Database.docker.php
+!docker/
+!Dockerfile
+!docker-compose.yml
+!docker-setup.*
+
 # Uploaded files (user content)
 uploads/profiles/*
 uploads/posts/*
